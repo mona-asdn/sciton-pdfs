@@ -1,0 +1,7 @@
+autopep8==2.0.2
+Pillow==9.5.0
+pybind11==2.10.4
+pycodestyle==2.10.0
+pycparser==2.21
+PyPDF2==3.0.1
+PyYAML==6.0
