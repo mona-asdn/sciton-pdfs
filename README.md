@@ -53,3 +53,8 @@ This script converts the PDF files in the `cut_files` folder to images. The imag
 - To convert PDFs to images (before the final OCR):
     - On Mac: `brew install poppler`
     - Otherwise: see https://pypi.org/project/pdf2image/
+
+ ### Screenshot a section of the images: `crop_images.py`
+
+ This script crops a section of the images based on the certain search queries (i.e., final efficiency). 
+ Since the pdfs have different formats, 3 different queries are defined to search for final efficiency and the results are saved in the `cropped_images` folder.  
