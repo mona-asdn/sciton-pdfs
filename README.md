@@ -9,14 +9,17 @@ The following scripts are used to extract text from PDF files and search for a s
     - `conda activate env-pdf`
 
 2. Install `ocrmypdf` on your machine. [documentation](https://ocrmypdf.readthedocs.io/en/latest/installation.html)
+   - For linux, use the following command to install ocrmdf:
+     pip3 install ocrmypdf
+     (apt install  ocrmypdf wouldn't install all the necessary libraries for our purpose)
 
-3. Clone the repository:
+4. Clone the repository:
     - `git clone https://github.com/noghte/ocrpdf.git`
 
-4. Install the required libraries using the following command:
+5. Install the required libraries using the following command:
     - `pip install -r requirements.txt`
 
-5. Create the following folders in the root directory:
+6. Create the following folders in the root directory:
     - `files`: contains the PDF files. Copy all the PDF files that you want to process in this folder.
     - `results`: contains the text files that are extracted from the PDF files. At the beginning, this folder is empty.
     - `results_cut`: contains the cut PDF files. At the beginning, this folder is empty.
